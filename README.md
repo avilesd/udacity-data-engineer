@@ -1,7 +1,7 @@
 # Introduction
 Goal and reason for this document: This file is the documentation for the project 'Data Modeling with Progres' for a ficticious startup called 'Sparkify'.
 
-# Project Description (TBD...)
+# Project Description
 What: We are part of the data engineering teem from a startup called 'Sparkify'. One of their products is a music streaming app. The startup has collected data on songs (see `song_data`) and user activity within the app (see `log_data`). The analytics teams wants to use this data to gain insight into the songs users are listening to.
 
 Why and how: The collected data currently exists as JSON metadata (`song_data`)  and as JSON logs (`log_data`). The analytics team has asked for our support to deliver a database, where they can easily run analytical queries. In order to fulfill this requirement, we will procede as follows:
