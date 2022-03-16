@@ -5,11 +5,31 @@ WHile the five challenges where somewhat guided and with resources from Udacity,
 
 In each of the folders, you will find the references and helpful links to that particular challenge in the README.md, as well as a more detailled description of the challenge / project itself.
 
-# Overview of the Data Engineer Nanodegree Program from Udacity
+## Top three takeaways from the program for me
+- Learning broad about data engineering and deep about Modeling, Warehousing, Data Lakes
+- Learning on architecture and the why of Distributed Systems for scalability and efficiency for very large datasets
+- Learning or improving on my tool skills: PySpark, Postgres, Cassandra, SQL, AWS and Airflow 
 
-#### 1. Data Modeling
-  - Data Mode
+# Outline of the Data Engineer Nanodegree Program from Udacity
 
-Reference: https://www.udacity.com/course/data-engineer-nanodegree--nd027
+#### Data Modeling
+  - Data Modeling with Postgres (Challenge 1)
+  - Data Modeling with Apache Cassandra (Challenge 2)
+
+#### Cloud Data Warehouses 
+  - Build a Data Warehouse with AWS (Challenge 3)
+
+#### Data Lakes (Spark)
+  - Build a Data Lake and work with Spark (Challenge 4)
+
+#### Data Pipelines (Airflow)
+  - Builing and maintaining Data Pipelines with Apache Airflow (Challenge 5)
+
+#### Capstone Project (Final assesment)
+  - Combine the learned concepts and tools to build an own data engineering project
+
+Requirements: Intermediate Python & SQL
+
+Reference for program outline: https://www.udacity.com/course/data-engineer-nanodegree--nd027
 
 
