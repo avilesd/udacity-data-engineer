@@ -6,6 +6,10 @@ WHile the five challenges where somewhat guided and with resources from Udacity,
 In each of the folders, you will find the references and helpful links to that particular challenge in the README.md, as well as a more detailled description of the challenge / project itself.
 
 # Overview of the Data Engineer Nanodegree Program from Udacity
+
+#### 1. Data Modeling
+  - Data Mode
+
 Reference: https://www.udacity.com/course/data-engineer-nanodegree--nd027
 
 
