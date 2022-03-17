@@ -1,6 +1,10 @@
 # To Run
 you will an Airflow installation and a web server. Once that has been set up, you also need to enter to Connections in the Airflow UI (or programatically). One for the cloud credentials and one for the redshift connection information.
 
+# DAG Structure
+![image](https://user-images.githubusercontent.com/9051749/158776303-309e51bb-8277-4893-a30a-af99283c4a38.png)
+
+
 # Nice to read / Food for thought
 Some good answers to more architectural questions regarding Airflow: https://knowledge.udacity.com/questions/68508
 
