@@ -12,6 +12,10 @@ We are going to use to use a 'Data Lake' approach to 1. read the raw data, 2. pr
 
 Technically, we are going to use PySpark, in this case a pyspark shell script that leverages the Spark technology to do all three steps described above.
 
+Overview of the data flow and ETL-Process:
+![image](https://user-images.githubusercontent.com/9051749/159492812-0fd55b04-8170-40a2-9780-f6a2b9be5717.png)
+
+
 ## Files
 ### etl.py
 This is the main document, which contains the ETL pipeline:
