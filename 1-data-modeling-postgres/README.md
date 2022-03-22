@@ -10,6 +10,10 @@ Why and how: The collected data currently exists as JSON metadata (`song_data`) 
 2. ETL pipelining: Design an extract, transform and load pipeline to systematically populate the database using the `song_data` and `log_data`
 3. Testing: Use the queries from the analytics team to test validate the results of the first two steps
 
+Overview of the ETL-process and data flow:
+![image](https://user-images.githubusercontent.com/9051749/159493768-823cb578-e366-4650-be42-0fabe540ed90.png)
+
+
 How to read this document: this documentation is document oriented. So each chapter below describes different contents of the assignment in relation to the workspace files:
 
 1. `sql_queries.py` : Python document where all the SQL queries will be written and saved
