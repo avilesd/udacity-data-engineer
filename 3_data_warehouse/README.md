@@ -10,8 +10,6 @@ How 1 - conceptually, the process works in two steps:
 1. First **load** the data from storage S3 into staging tables in Redshift. Loading the data first in Redshift will allow us to transform/filter the data into the shape and form we need, which is:
 2. Use the staging tables to model the data into a star schema (here also called analytical tables), as we saw in the project: "Data Modeling with Progres". For details on the data modeling see (https://github.com/avilesd/udacity-data-engineer/tree/main/1-data-modeling-postgres)
 
-How to read this document: this documentation is document oriented. So each chapter below describes different contents of the assignment in relation to the workspace files:
-
 How 2 - programatically, we have created three process files and one config files:
 1. `sql_queries.py` : Python document where all the SQL queries will be written and saved. There are four clusters of queries:
     1. Drop-queries: drop tables if they exist in a given database
