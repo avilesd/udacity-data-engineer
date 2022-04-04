@@ -45,3 +45,7 @@ Then, assuming you have the dependencies for PySpark, you can open the command s
 - On partitioning by columns: https://spark.apache.org/docs/3.1.3/api/python/reference/api/pyspark.sql.DataFrameWriter.partitionBy.html?highlight=partition#pyspark.sql.DataFrameWriter.partitionBy
 - Refresh how to join on multiple columns in Pyspark: https://www.geeksforgeeks.org/how-to-join-on-multiple-columns-in-pyspark
 - On reading nested .json files, e.g. for the song_data: https://knowledge.udacity.com/questions/127025
+- Resources that helped for the exercise:
+- about boto3 client (low-level, harder responses) vs. resources (high-level, object-oriented, parsed dictionary responses and more readable): https://knowledge.udacity.com/questions/180313
+- Help on some error when creating an IAM role: https://knowledge.udacity.com/questions/521992
+
