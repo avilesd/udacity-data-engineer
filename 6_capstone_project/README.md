@@ -105,7 +105,7 @@ Document steps necessary to clean the data
     - For all columns: there are no `NA` or `NaN` values
         - to check, you can run `df_cleaning_1.select([count(when(isnan(c), c)).alias(c) for c in df_cleaning_1.columns]).show()`
     - The distribution of `null` values for the columns' dataframes is as follows
-        - ![null-dist-values-imm-data](pics/data-immigration_null-value-dist.PNG)
+        - ![null-dist-values-imm-data](pics/data-immigration_null-value-dist.png)
         - With these results, we can safely delete the columns `i94addr, visapost, occup, insnum, matflag`, since the percentage of missing values is too large and/or are not that relevant to our project. Additionally, the column `entdepu` has more than 90% missing values and since this column, as well as the related `entdepa` and `entdepd` are not much relevant for the purpose of this project, we will also delete all three.
         - For the remaining columns with missing values, we will leave as is: since the percentage is not too high and none of the columns with a higher percentage of missing values are of numerical type to use a fill strategy
 - Since for this project we are only interested in tourist travels and as we saw, the column `i94visa` has no missing values, we can filter out the `Business (=1)` and `Student (=3)` entries in the `i94visa` column, and ultimately drop the column (redundant)
